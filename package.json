@@ -1,0 +1,17 @@
+{
+  "name": "whatsapp-chatbot-reminders",
+  "version": "1.0.0",
+  "description": "WhatsApp Chatbot & Reminder Dashboard for Workshops",
+  "main": "server/index.js",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix client",
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run build --prefix client",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
