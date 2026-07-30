@@ -1,0 +1,57 @@
+{
+  "settings": {
+    "botActive": true,
+    "defaultTemplate": "Halo [Nama], kami dari Bengkel Motor ingin mengingatkan bahwa kendaraan Anda sudah waktunya untuk melakukan [Servis] kembali (terakhir tanggal [TanggalTerakhir]). Silakan kunjungi bengkel kami untuk menjaga performa kendaraan Anda. Terima kasih!"
+  },
+  "faqs": [
+    {
+      "id": "default-1",
+      "keyword": "lokasi",
+      "reply": "Bengkel kami berlokasi di Jl. Raya Otomotif No. 123. Silakan cari 'Bengkel Kita' di Google Maps untuk navigasi langsung!",
+      "matchType": "contains"
+    },
+    {
+      "id": "default-2",
+      "keyword": "jam buka",
+      "reply": "Kami buka setiap hari Senin - Sabtu mulai pukul 08:00 WIB hingga 17:00 WIB. Hari Minggu libur.",
+      "matchType": "contains"
+    },
+    {
+      "id": "default-3",
+      "keyword": "harga oli",
+      "reply": "Harga ganti oli berkisar antara Rp 45.000 s/d Rp 150.000 tergantung jenis motor dan merk oli yang dipilih. Gratis biaya jasa pasang!",
+      "matchType": "contains"
+    }
+  ],
+  "reminders": [],
+  "logs": [
+    {
+      "id": "1785431098238",
+      "timestamp": "2026-07-30T17:04:58.238Z",
+      "type": "system",
+      "message": "Menggunakan browser Google Chrome sistem: C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+      "status": "info"
+    },
+    {
+      "id": "1785431098237",
+      "timestamp": "2026-07-30T17:04:58.237Z",
+      "type": "system",
+      "message": "Memulai inisialisasi WhatsApp Client...",
+      "status": "info"
+    },
+    {
+      "id": "1785431096235",
+      "timestamp": "2026-07-30T17:04:56.235Z",
+      "type": "system",
+      "message": "Database berhasil diinisialisasi.",
+      "status": "info"
+    },
+    {
+      "id": "1785430992354",
+      "timestamp": "2026-07-30T17:03:12.354Z",
+      "type": "error",
+      "message": "Uncaught Exception: listen EADDRINUSE: address already in use :::5000",
+      "status": "error"
+    }
+  ]
+}
